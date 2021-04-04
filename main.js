@@ -14,6 +14,7 @@ var scrapeDelay = 2
 //The cities we're looking for appointments in.  The value (false) is whether we've already sent an email when that
 // city showed up with availability and is used to avoid sending an email unless the city flips back to fully booked,
 // then back to available again.
+// You can see these city names in output.json in the code folder (as well as the rest of the payload)
 let cityIds = new Map();
 cityIds.set("ALPINE", false);
 cityIds.set("CARLSBAD", false);
